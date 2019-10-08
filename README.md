@@ -12,15 +12,19 @@ This is the basic LFM for our prediction problem. This builds a matrix in which 
 
 To get the predictive accuracy, just excute 10LFMFeatureBasic\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
+# 12LFMFeatureNei
+
+This is the basic LFM with neighborhood influence. This takes into account the factor that posts with similar topics should have similar popularity. Here, the neighborhood refers to the semantically similar posts from the same author and the same publication time bin. And the word mover’s distance is used to measure the similarity between posts.
+
+
+To get the predictive accuracy, (1) Copy 2DataRandom\NeighborFeature under the folder 12LFMFeatureNei. (2) excute 12LFMFeatureNei\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
 
 # 13LFMFeatureSyn
 
 This is the basic LFM with the dependency-based syntactic units. Here, posts are decomposed into syntactic units (primarily noun units and verb units).
 
-To get the predictive accuracy, just excute 10LFMFeatureBasic\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
-
-
+To get the predictive accuracy, just excute 13LFMFeatureSyn\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
 
 
