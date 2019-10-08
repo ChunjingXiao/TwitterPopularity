@@ -24,7 +24,7 @@ To get the predictive accuracy, (1) copy 2DataRandom\NeighborFeature under the f
 
 This is the basic LFM with the dependency-based syntactic units. Here, posts are decomposed into syntactic units (primarily noun units and verb units).
 
-To get the predictive accuracy, just execute 13LFMFeatureSyn\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
+To get the predictive accuracy, (1) copy 2DataRandom\TweetTimeRtSparseCleanDepend under the folder 13LFMFeatureSyn. (2)  Execute 13LFMFeatureSyn\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
 
 
