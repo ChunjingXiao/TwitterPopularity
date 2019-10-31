@@ -27,6 +27,11 @@ This is the basic LFM with the dependency-based syntactic units. Here, posts are
 To get the predictive accuracy, (1) copy 2DataRandom\TweetTimeRtSparseCleanDepend under the folder 13LFMFeatureSyn. (2)  Execute 13LFMFeatureSyn\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
 
+# 14LFMFeatureFull
+
+This is our extended Latent Factor Model. In this model, we exploit the three factors, the syntactic units, temporal information and neighborhood influence, and incorporate them into the basic LFM.
+
+To get the predictive accuracy, (1) copy 2DataRandom\TweetTimeRtSparseCleanDepend under the folder 14LFMFeatureSyn. (2) copy 2DataRandom\NeighborFeature under the folder 14LFMFeatureNei. (3)  Execute 14LFMFeatureSyn\zLFMFeaturePerTweet.bat. And the results (SEN, SPE and G-Mean) will be saved in computePerTweetSum.txt.
 
 
 # CNN Baseline
