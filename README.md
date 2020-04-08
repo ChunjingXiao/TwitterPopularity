@@ -1,3 +1,11 @@
+
+
+This is the implementation for our paper: Time sensitivity-based popularity prediction for online promotion on Twitter (Information Sciences, 2020).  https://www.sciencedirect.com/science/article/pii/S0020025520302371
+
+This is an extended Latent Factor Model that can predict popularity values of tweets on Twitter when they are published at various times. The data includes Twitter user profiles and tweet information (tweetID, Text, published time, userID, retweetNumber).  
+
+
+
 # TwitterPopularity
 
 These are the code and data for our extended Latent Factor Model (LFM), which aims to predict a series of popularity values of a post when it is published in different times on Twitter. The codes are tested under win7+python2.7.
